@@ -186,3 +186,104 @@ xSkills---Find-Your-Next-Opportunity/
 │
 ├── 📄 .gitignore
 └── 📄 README.md
+
+
+
+```
+# Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sovan-payra/xSkills---Find-Your-Next-Opportunity.git
+```
+
+Navigate into the project directory:
+
+```bash
+cd xSkills---Find-Your-Next-Opportunity
+```
+
+---
+
+## 🎨 Frontend Setup
+
+Navigate to the frontend:
+
+```bash
+cd frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The frontend will normally run at:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## ⚙️ Backend Setup
+
+Open another terminal and navigate to the backend:
+
+```bash
+cd backend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the backend server:
+
+```bash
+node server.js
+```
+
+The backend will run at:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file inside the `backend` directory:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+SECRET_KEY=your_jwt_secret_key
+CLOUD_NAME=your_cloudinary_cloud_name
+API_KEY=your_cloudinary_api_key
+API_SECRET=your_cloudinary_api_secret
+PORT=3000
+```
+
+### ⚠️ Important
+
+Never commit your `.env` file to GitHub.
+
+Make sure your `.gitignore` contains:
+
+```text
+node_modules/
+.env
+```
+
+---
