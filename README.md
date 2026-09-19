@@ -1,191 +1,188 @@
+# 💼 xSkills - Find Your Next Opportunity
 
-# 🚀 xSkills - Find Your Next Opportunity
+A full-stack job portal platform built with **React, Vite, Node.js, Express.js, MongoDB, Mongoose, Redux Toolkit, JWT, Cloudinary, and Tailwind CSS**.
 
-xSkills is a full-stack job portal web application designed to connect job seekers with recruiters in a simple and user-friendly platform.
+xSkills allows job seekers to create professional profiles, upload resumes, discover and filter job opportunities, and apply for jobs. Recruiters can create companies, publish job openings, view applicants, and manage application statuses. 🚀
 
-Job seekers can create their profiles, upload resumes, search and filter jobs, and apply for suitable opportunities. Recruiters can create company profiles, post jobs, view applicants, and manage application statuses.
-
----
-
-## 🌐 Live Repository
-
-🔗 **GitHub:**  
-https://github.com/sovan-payra/xSkills---Find-Your-Next-Opportunity
+🔗 **GitHub Repository:** https://github.com/sovan-payra/xSkills---Find-Your-Next-Opportunity
 
 ---
 
-## 📌 About The Project
+## ✨ Features
 
-Finding suitable job opportunities and managing applications can be challenging for both job seekers and recruiters.
+### 👤 Job Seeker Features
 
-xSkills provides a platform where:
+* 📝 User registration
+* 🔑 User login
+* 🚪 User logout
+* 🔐 JWT-based authentication
+* 🍪 Cookie-based authentication
+* 🔒 Password hashing using bcrypt
+* 👤 Create and update profile
+* 📸 Upload profile photo
+* 🧠 Add and manage skills
+* 📄 Upload resume
+* 🔍 Browse available jobs
+* 🔎 Search jobs by keyword
+* 📍 Filter jobs by location
+* 💼 Filter jobs by job title
+* 💰 Filter jobs by salary
+* 📋 View detailed job information
+* 🚀 Apply for jobs
+* 🚫 Prevent duplicate applications
+* 📚 View applied jobs
+* 📊 Track application status
+* 📅 View application date
 
-- 👨‍💻 Job seekers can discover and apply for jobs.
-- 🏢 Recruiters can create companies and publish job openings.
-- 📄 Users can upload and manage their resumes.
-- 🔎 Jobs can be searched and filtered.
-- 📋 Recruiters can view applicants for their posted jobs.
-- ✅ Recruiters can accept or reject applications.
+### 🏢 Recruiter Features
 
-The project is built using the MERN stack with a separate React frontend and Node.js/Express backend.
+* 📝 Recruiter registration
+* 🔑 Recruiter login
+* 🚪 Recruiter logout
+* 🔐 JWT-based authentication
+* 🍪 Cookie-based authentication
+* 🏢 Create company profile
+* ✏️ Update company information
+* 🖼️ Upload company logo
+* 🌐 Add company website
+* 📍 Add company location
+* 📝 Create job postings
+* 📄 Add job description
+* 🧠 Add job requirements
+* 💰 Add salary information
+* 📊 Add experience level
+* 💼 Add job type
+* 👥 Add number of positions
+* 📋 View posted jobs
+* 👀 View job applicants
+* 📄 View applicant resume
+* ✅ Accept applications
+* ❌ Reject applications
+* 📊 Manage application status
 
----
+### 🎨 UI Features
 
-# ✨ Features
-
-## 👨‍💻 Job Seeker Features
-
-### 🔐 Authentication
-
-- User registration
-- User login
-- User logout
-- Role-based authentication
-- JWT-based authentication
-- Protected routes
-
-### 👤 Profile Management
-
-- Create user profile
-- Update profile information
-- Upload profile photo
-- Add skills
-- Add bio
-- Upload resume
-- Update contact information
-
-### 🔍 Job Search
-
-- Browse all available jobs
-- Search jobs by keyword
-- Search by job title
-- Search by location
-- Filter jobs by salary
-- View detailed job information
-
-### 📄 Job Applications
-
-- Apply for jobs
-- Prevent duplicate applications
-- View applied jobs
-- Track application status
-- View application date
-
-### 📊 Application Status
-
-Applications can have the following statuses:
-
-- Pending
-- Accepted
-- Rejected
-
----
-
-# 🏢 Recruiter Features
-
-## 🏢 Company Management
-
-Recruiters can:
-
-- Create a company
-- Update company information
-- Add company description
-- Add company website
-- Add company location
-- Upload company logo
-
-## 💼 Job Management
-
-Recruiters can:
-
-- Create job postings
-- Add job title
-- Add job description
-- Add requirements
-- Add salary
-- Add experience level
-- Add job location
-- Add job type
-- Add number of positions
-- View posted jobs
-
-## 👥 Applicant Management
-
-Recruiters can:
-
-- View applicants for a job
-- View applicant name
-- View applicant email
-- View applicant contact information
-- View applicant resume
-- View application date
-- Accept applications
-- Reject applications
+* 📱 Responsive design
+* 🎨 Modern user interface
+* 🧭 React Router navigation
+* 🔍 Job search interface
+* 🎛️ Job filtering
+* 📋 Responsive job cards
+* 🏢 Company management interface
+* 👥 Applicant management interface
+* 🌙 Clean and modern layout
+* 🔔 Toast notifications
+* 📱 Mobile-friendly interface
+* ♿ Accessible UI components
 
 ---
 
-# 🛠️ Technology Stack
+## 🧰 Tech Stack
 
-## Frontend
+### 🎨 Frontend
 
-The frontend is built using modern React technologies.
+* ⚛️ **React.js**
+* ⚡ **Vite**
+* 🧭 **React Router**
+* 📦 **Redux Toolkit**
+* 💾 **Redux Persist**
+* 📡 **Axios**
+* 🎨 **Tailwind CSS**
+* 🧩 **shadcn/ui**
+* 🎯 **Lucide React**
+* 🔔 **Sonner**
 
-- React.js
-- Vite
-- React Router
-- Redux Toolkit
-- Redux Persist
-- Axios
-- Tailwind CSS
-- shadcn/ui
-- Lucide React
-- Sonner
+### ⚙️ Backend
 
-## Backend
+* 🟢 **Node.js**
+* 🚂 **Express.js**
+* 🍃 **MongoDB**
+* 🧩 **Mongoose**
+* 🔑 **JSON Web Token**
+* 🔒 **bcrypt**
+* 🍪 **cookie-parser**
+* 🌐 **CORS**
+* 📤 **Multer**
 
-The backend provides REST APIs for authentication, jobs, companies, and applications.
+### ☁️ Cloud Services
 
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- JWT
-- bcrypt
-- Multer
+* ☁️ **Cloudinary**
 
-## Cloud Services
+Cloudinary is used for storing:
 
-- Cloudinary
-
-Cloudinary is used for uploading and storing:
-
-- Profile photos
-- Company logos
-- Resumes
+* 📸 Profile photos
+* 🏢 Company logos
+* 📄 Resumes
 
 ---
 
-# 🏗️ Project Architecture
+## 📁 Project Structure
 
 ```text
-                         xSkills
-                            │
-             ┌──────────────┴──────────────┐
-             │                             │
-        Frontend                       Backend
-             │                             │
-         React.js                     Node.js
-         Vite                         Express.js
-         Redux Toolkit                     │
-         Tailwind CSS                       │
-             │                              │
-             └────────── REST API ──────────┘
-                                            │
-                                      MongoDB
-                                            │
-                                      Mongoose
-                                            │
-                                      Cloudinary
-
-
-
+xSkills---Find-Your-Next-Opportunity/
+│
+├── 📁 frontend/
+│   ├── 📁 src/
+│   │   ├── 📁 components/
+│   │   │   ├── 📁 admin/
+│   │   │   ├── 📁 auth/
+│   │   │   ├── 📁 shared/
+│   │   │   └── 📁 ui/
+│   │   │
+│   │   ├── 📁 hooks/
+│   │   │
+│   │   ├── 📁 redux/
+│   │   │   ├── authSlice.js
+│   │   │   ├── jobSlice.js
+│   │   │   ├── companySlice.js
+│   │   │   ├── applicationSlice.js
+│   │   │   └── store.js
+│   │   │
+│   │   ├── 📁 utils/
+│   │   │   └── constant.js
+│   │   │
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   ├── 📁 public/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── 📁 backend/
+│   ├── 📁 src/
+│   │   ├── 📁 controllers/
+│   │   │   ├── user.controller.js
+│   │   │   ├── company.controller.js
+│   │   │   ├── job.controller.js
+│   │   │   └── application.controller.js
+│   │   │
+│   │   ├── 📁 db/
+│   │   │   └── db.js
+│   │   │
+│   │   ├── 📁 middlewares/
+│   │   │   ├── isAuthenticated.js
+│   │   │   └── mutler.js
+│   │   │
+│   │   ├── 📁 models/
+│   │   │   ├── user.model.js
+│   │   │   ├── company.model.js
+│   │   │   ├── job.model.js
+│   │   │   └── application.model.js
+│   │   │
+│   │   ├── 📁 routes/
+│   │   │   ├── user.route.js
+│   │   │   ├── company.route.js
+│   │   │   ├── job.route.js
+│   │   │   └── application.route.js
+│   │   │
+│   │   ├── 📁 utils/
+│   │   │   ├── cloudinary.js
+│   │   │   └── datauri.js
+│   │   │
+│   │   └── app.js
+│   │
+│   ├── server.js
+│   └── package.json
+│
+├── 📄 .gitignore
+└── 📄 README.md
